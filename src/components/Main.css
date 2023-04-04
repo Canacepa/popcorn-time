@@ -1,0 +1,29 @@
+.Main .card {
+    max-width: 80%;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px solid #666;
+    box-shadow: 5px 5px 10px -5px;
+    transition: 0.4s;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.Main .card:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 15px 0px;
+}
+
+.Main .badge {
+    background-color: rgb(4, 128, 0);
+    color: #fff;
+    border-radius: 0.5rem;
+    max-width: 200px;
+    margin: 1rem auto;
+    padding: 0.2rem;
+  }
+
+.Main .info {
+    width: 50%;
+}
